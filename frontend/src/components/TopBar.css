@@ -1,0 +1,22 @@
+.top-bar {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  background-color: #54c8e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.menu-icon {
+  margin-right: 8px;
+  font-size: 20px;
+}

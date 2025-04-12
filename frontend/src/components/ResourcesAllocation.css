@@ -1,0 +1,74 @@
+.resources-allocation {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resources-period {
+  font-size: 14px;
+  color: #666;
+}
+
+.resources-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.donut-chart-container {
+  width: 200px;
+  height: 200px;
+}
+
+.donut-chart {
+  transform: rotate(90deg);
+}
+
+.resources-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.legend-name {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.legend-percentage {
+  font-size: 14px;
+  color: #666;
+}
+
+.resources-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.view-details-button {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}

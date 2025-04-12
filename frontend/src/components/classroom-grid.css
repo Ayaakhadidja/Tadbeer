@@ -1,0 +1,54 @@
+.classroom-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .classroom-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .classroom-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.classroom-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.classroom-card.disabled {
+  opacity: 0.6;
+}
+
+.card-content {
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-info {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.book-button {
+  background-color: #5c5fef;
+  color: white;
+  margin-top: auto;
+}
+
+.book-button:hover {
+  background-color: #4f52d9;
+}

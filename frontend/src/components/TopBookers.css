@@ -1,0 +1,71 @@
+.top-bookers {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookers-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 250px;
+}
+
+.booker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.booker-name {
+  font-size: 14px;
+  color: #333;
+}
+
+.rank-bar {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #c7e5f9;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.rank-first {
+  height: 120px;
+}
+
+.rank-second {
+  height: 90px;
+}
+
+.rank-third {
+  height: 60px;
+}
+
+.points-badge {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
